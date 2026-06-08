@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Bulich Dmitrii" },
+      { name: "description", content: "проект для агу" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Bulich Dmitrii" },
+      { property: "og:description", content: "проект для агу" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Bulich Dmitrii" },
+      { name: "twitter:description", content: "проект для агу" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ee027c99-741a-4b22-a7c3-ef459b9d76d7/id-preview-011cd243--50e65375-a8ac-4a3d-9307-f16bdaa347a1.lovable.app-1780937015572.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ee027c99-741a-4b22-a7c3-ef459b9d76d7/id-preview-011cd243--50e65375-a8ac-4a3d-9307-f16bdaa347a1.lovable.app-1780937015572.png" },
     ],
     links: [
       {
